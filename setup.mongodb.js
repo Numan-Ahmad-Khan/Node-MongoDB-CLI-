@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 //mongoose setup
-const mongooseURL = 'mongodb+srv://Numan:numan.mongo@cluster0.ntvqvow.mongodb.net/newDB'
+const mongooseURL = 'mongodb+srv://<Username:Password>.mongo@cluster0.ntvqvow.mongodb.net/newDB'
 const connectDB = async()=>{
   try{
     await mongoose.connect(mongooseURL);

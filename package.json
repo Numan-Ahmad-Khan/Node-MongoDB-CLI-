@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "init": "^0.1.2",
+    "mongoose": "^9.1.5",
+    "yargs": "^18.0.0"
+  }
+}
